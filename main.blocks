@@ -1,0 +1,18 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="JW9/LoFe{f!^Z06:KF_2">mySprite</variable><variable type="KIND_SpriteKind" id="_k$y]8lS;$bq+VQ+;pB+">Player</variable><variable type="KIND_SpriteKind" id="iKR[|YvaTSc{$44^u0@7">Projectile</variable><variable type="KIND_SpriteKind" id="?+.y_ZLFNwj(fc~s`%UM">Food</variable><variable type="KIND_SpriteKind" id="0Jya^xB84,A,bV;d[p6r">Enemy</variable></variables><block type="pxt-on-start" id="0^o%k[+;xrsui$y{N7}N" x="0" y="0"><statement name="HANDLER"><block type="particlesStartScreenAnimation" id="*%~VpqY.+L5?X8bc3t_U"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="false"></mutation><field name="effect">effects.starField</field><next><block type="variables_set" id="E(u(4?$CqI,kEcB?u^}#"><field name="VAR" id="JW9/LoFe{f!^Z06:KF_2">mySprite</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="-H]:VEJ,sw]5I[.X!5])"><value name="img"><shadow type="screen_image_picker" id="NTkXb(Gk=M|[l#:)*Ew="><field name="img">img`
+. . . . 8 . . . . . 8 . . . . . 
+. . . . 8 . . . . . 8 . . . . . 
+. . . . 8 . . . . . 8 . . . . . 
+. . . . 8 . . . . . 8 . . . . . 
+. . . . 8 . 8 8 8 . 8 . . . . . 
+. . . . 8 8 6 6 6 8 8 . . . . . 
+. . . . 8 8 6 6 6 8 8 . . . . . 
+. . . . . 8 6 6 6 8 . . . . . . 
+. . . . . 8 6 6 6 8 . . . . . . 
+. . . . . 8 6 9 9 8 . . . . . . 
+. . . . . 8 6 9 9 8 . . . . . . 
+. . . . . 8 8 8 8 8 . . . . . . 
+. . . . . 2 4 4 4 2 . . . . . . 
+. . . . . 2 4 4 4 2 . . . . . . 
+. . . . . 2 4 4 5 2 . . . . . . 
+. . . . . . 2 2 2 . . . . . . . 
+`</field></shadow></value><value name="kind"><shadow type="spritekind" id="bQY~cll}OZDD{7+mIfY{"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="game_control_sprite" id="U~)MP$kKFix#l}#s3ND{"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="false"></mutation><value name="sprite"><block type="variables_get" id=";P64:fa$QPO_Tvw2dHox"><field name="VAR" id="JW9/LoFe{f!^Z06:KF_2">mySprite</field></block></value><next><block type="spritesetsetflag" id=";0yBKsysIPXEm]vvi)DQ"><field name="flag">SpriteFlag.StayInScreen</field><value name="sprite"><block type="variables_get" id="}E}qdgN^pDYkiP]gaZTI"><field name="VAR" id="JW9/LoFe{f!^Z06:KF_2">mySprite</field></block></value><value name="on"><shadow type="toggleOnOff" id="/te=DX.mkXa}^kMC0S%5"><field name="on">true</field></shadow></value></block></next></block></next></block></next></block></statement></block></xml>
